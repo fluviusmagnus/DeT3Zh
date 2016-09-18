@@ -1,0 +1,19 @@
+default
+partial alphanumeric_keys
+xkb_symbols "DeT3Zh" {
+    name[Group1]="German (T3 Modified for ZhKB)";
+
+    // Keyboard for Simplified Chinese lacks the key between Left_Shift and Y,
+    // so Group 1 on it is moved to Group 2 of key AE11,
+    // and Group 2 on it is moved to Group 2 of key AD12.
+    // This is safe because the overwritten groups are actually duplicate. 
+
+    include "de(T3)"
+
+    // key <AE11> { [          ssharp,        question,       backslash,        NoSymbol,       backslash,      questiondown,           U02BB,        NoSymbol ] };
+    key <AE11> { [          ssharp,        question,       backslash,        NoSymbol,            less,           greater,             bar,        NoSymbol ] };
+
+    // key <AD12> { [            plus,        asterisk,      asciitilde,        NoSymbol,      dead_tilde,     dead_macron,              at,        NoSymbol ] };
+    key <AD12> { [            plus,        asterisk,      asciitilde,        NoSymbol,           U0149,       brokenbar,           U266A,        NoSymbol ] };
+
+};
