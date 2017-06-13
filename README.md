@@ -37,7 +37,7 @@ My modification is simple. Group 1 i.e. `< > |` on the `<` key is moved to Group
    };
    ```
 
-2. Add lines to a specific place in `/usr/share/X11/xkb/base.extra.xml`:
+2. Add lines to a specific place in `/usr/share/X11/xkb/rules/base.extra.xml`:
 
    Find lines in this file like:
 
@@ -65,7 +65,7 @@ My modification is simple. Group 1 i.e. `< > |` on the `<` key is moved to Group
            </variant>
    ```
 
-3. Add lines to a specific place in `/usr/share/X11/xkb/evdev.extra.xml`:
+3. Add lines to a specific place in `/usr/share/X11/xkb/rules/evdev.extra.xml`:
 
    Find lines in this file like:
 
