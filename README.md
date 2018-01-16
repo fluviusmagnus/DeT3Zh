@@ -100,3 +100,9 @@ My modification is simple. Group 1 i.e. `< > |` on the `<` key is moved to Group
 These modified files could be overwritten after a system update. Do not directly overwrite the new files using backuped old ones to recover the function, unless you are sure that the changes made in the update to the unmodified parts are absolutely meaningless to you.
 
 __Please tell me if there is anything wrong.__
+
+## Note: Solution for Windows
+
+Using Microsoft Keyboard Layout Creator 1.4 a special layout is to be created, which is not perfectly compatible with T3. And the creator itself is very old, use it at your own risk on newer systems.
+
+The .klc file is provided in this repo, also a binary installer packed in .zip which created using the creator.
