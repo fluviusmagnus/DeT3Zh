@@ -1,5 +1,16 @@
 # DeT3Zh - German keyboard layout optimized for Simplified Chinese keyboard
 
+## Deprecated!!!
+
+> [!IMPORTANT]
+> Since the [Tastaturbelegung E1](https://de.wikipedia.org/wiki/Tastaturbelegung#Tastaturbelegung_E1) and especially [E2](https://de.wikipedia.org/wiki/Tastaturbelegung#Tastaturbelegung_E2) are now the new standard, this solution is no longer of current interest. Chinese (actually US) keyboard users should easily choose the E2 layout, even on the latest version of Windows 11.
+
+> [!TIP]
+> For those who prefer to use a German keyboard layout when typing Chinese, there is also a solution available. Please read my post: [强制使用德语键盘输入中文（更新）](https://eleutheria.tech/archives/461/).
+
+---
+(Original README)
+
 ## Why?
 
 Typical Chinese keyboards lack the `<` key between LShift and Y, which appears commonly on European keyboards. As a result, Germanists in China have to keep switching frequently from one keyboard layout to another. Therefore, I tried to create a special modified German keyboard layout for those who are using a Chinese keyboard. All the modification works fine on my Manjaro machine, and should work also on Archlinux or other Linux systems.
